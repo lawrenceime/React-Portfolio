@@ -1,36 +1,48 @@
-import React from 'react'
-import './NavbarStyles.css'
-import { Link } from 'react-router-dom'
-import {FaBars} from 'react-icons/fa';
-
+import React from "react";
+import "./NavbarStyles.css";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react";
 
 const Navbar = () => {
-  
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
 
   return (
-    <div className='header'>
-      <Link to='/'>
-       <h1>Portfolio</h1>
+    <div className="header">
+      <Link to="/">
+        <h1>Portfolio</h1>
       </Link>
-      <ul className='nav-menu'>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to='/project'>Projects</Link>
+          <Link to="/project">Projects</Link>
         </li>
         <li>
-          <Link to='/'>Contact</Link>
+          <Link to="/">Contact</Link>
         </li>
       </ul>
-      <div className='hamburger'>
-      <FaBars size={20} style={{color:"#fff"}}/>
+      <div className="hamburger" onClick={handleClick} >
+        {click ? (
+          <FaTimes size={20} style={{ color: "#fff" }} />
+        ) : (
+          <FaBars
+            size={20}
+            style={{ color: "#fff" }}
+           
+          />
+        )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
