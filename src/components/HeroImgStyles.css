@@ -34,5 +34,48 @@
     transform: translate(-50%, -50%);
     top:50%;
     left:50%;
+    height: 30%;
     
 }
+
+.hero .content h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem ;
+}
+
+.hero .content p {
+    font-size: 1.4rem;
+    font-weight:200;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+
+.content .btn {
+    margin: 0.5rem 0.2rem;
+}
+
+
+
+.buttons{
+   display: flex;
+   justify-content: center; 
+}
+
+@media screen and (max-width:640px) {
+    .hero .content h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 1rem;
+      
+    }
+    
+    .hero .content p {
+        font-size: 1.4rem;
+      
+    }
+}
+
+
+
+
