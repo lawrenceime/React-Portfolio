@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaHome, FaLinkedinIn, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 import "./FooterStyles.css";
 
 const Footer = () => {
@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ marginRight: "2rem", color: "#fff" }} />
             <div>
-              <p> Adebayo close , Ago palace way</p>
-              <p> Lagos state .</p>
+              <p> Adebayo close , Ago palace way, Lagos state .</p>
+           
             </div>
           </div>
 
@@ -33,12 +33,29 @@ const Footer = () => {
                 size={20}
                 style={{ marginRight: "2rem", color: "#fff" }}
               />
-              +234-808-233-0500
+              lawrenceime246@gmail.com
             </h4>
           </div>
         </div>
 
-        <div className="right"></div>
+        <div className="right">
+          <h4> About </h4>
+          <p> A seasoned frontend developer with a track record of responsive and industry standard software products . I enjoy crafting and implementing ideas</p>
+          <div className="social">
+          <FaFacebook
+                size={30}
+                style={{ marginRight: "1rem", color: "#fff" }}
+              />
+               <FaTwitter
+                size={30}
+                style={{ marginRight: "1rem", color: "#fff" }}
+              />
+               <FaLinkedinIn
+                size={30}
+                style={{ marginRight: "1rem", color: "#fff" }}
+              />
+          </div>
+        </div>
       </div>
     </div>
   );
