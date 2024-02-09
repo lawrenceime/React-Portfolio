@@ -40,7 +40,7 @@ window.addEventListener("scroll" , changeColor);
           <Link to="/project">Projects</Link>
         </li>
         <li>
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick} >
