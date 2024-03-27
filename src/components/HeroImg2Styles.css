@@ -43,7 +43,26 @@
         font-size: 2rem;
         
     }
+
+   .hero-img .image-box{
+        width: 50%;
+    }
     
   
     
 }
+
+.image-box{
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    margin-bottom: -70px;
+    border: 8px solid white;
+}
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
