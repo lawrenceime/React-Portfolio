@@ -40,7 +40,7 @@ const Footer = () => {
 
         <div className="right">
           <h4> About </h4>
-          <p> A seasoned frontend developer with a track record of responsive and industry standard software products . I enjoy crafting and implementing ideas</p>
+          <p> A seasoned fullstack developer with a track record of responsive and industry standard software products . I enjoy crafting and implementing ideas</p>
           <div className="social">
           <FaFacebook
                 size={30}

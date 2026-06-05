@@ -1,25 +1,41 @@
-import HealthImage1 from "../assets/HealthProjectImage.jpg";
-import HealthImage2 from "../assets/uk-black-tech-3gO_bWev2jQ-unsplash.jpg";
-import HealthImage3 from "../assets/voice_over_lady.webp";
+import SchoolMgtImage from "../assets/yue-wu-iM1coCUa5gI-unsplash.jpg";
+import EcommerceImage from "../assets/agrrro-organic-5QpgBtMfidY-unsplash.jpg";
+import SkillPointImage from "../assets/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg";
+import NisopacImage from "../assets/cdc-fx9RJgZYRUE-unsplash.jpg";
+import AldeaImage from "../assets/ortopediatri-cocuk-ortopedi-akademisi-8JjW4xVwQqc-unsplash.jpg";
+
+
 
 const projectData = [
   {
-    imgsrc: HealthImage2,
-    title: "Pillar",
-    text: "A fintech platform that promotes eCommerce and payment solutions through technology. The application facilitates transactions such as bills payment, airtime purchase, fund transfer, account opening, etc.",
-    view: "https://pillarhq.io/",
+    imgsrc: EcommerceImage,
+    title: "Afrobasket Express",
+    text: "Discover the rich flavors of Africa with our marketplace for fresh, authentic food products. Shop from trusted vendors and enjoy convenient delivery straight to your doorstep.",
+    view: "https://www.afrobasketxpress.uk/marketplace",
   },
   {
-    imgsrc: HealthImage1,
-    title: "Decahealth",
-    text: "Facilitating seamless communication between doctors and patients, streamlining the appointment booking process. The app aims to enhance patient accessibility to medical care and optimize doctor-patient interactions.",
-    view: "https://github.com/lawrenceime/Decahealth",
+    imgsrc: SchoolMgtImage,
+    title: "Scholar Flow",
+    text: "A web application that helps schools manage their operations efficiently. It provides features such as student enrollment, attendance tracking, grade management, and communication tools for teachers, students, and parents.",
+    view: "https://scholar-flow-nine.vercel.app/",
   },
   {
-    imgsrc: HealthImage3,
-    title: "Vocal Power House",
-    text: "A simple website that was designed to publicize training sessions for individuals interested in improving themselves in voice-over artistry.",
-    view: "https://www.vph.com.ng/",
+    imgsrc: SkillPointImage,
+    title: "Skill Point",
+    text: "A platform that connects learners with expert instructors for online courses and skill development. It offers a wide range of courses in various subjects, allowing users to enhance their knowledge and acquire new skills from the comfort of their homes.",
+    view: "https://skill-point-frontend-sable.vercel.app/",
+  },
+  {
+    imgsrc: NisopacImage,
+    title: "Nisopac",
+    text: "A website that provides information about the Nigerian Society of Paediatricians. It offers details about the organization's mission, services, events, and membership opportunities for professionals in the pedeatric field of medicine.",
+    view: "https://nisopac.org.ng/",
+  },
+  {
+    imgsrc: AldeaImage,
+    title: "Aldea",
+    text: "This is a trusted online platform that help parents find qualified pediatric providers including speech therapists, psychologists, ABA therapists, occupational therapists, and developmental specialists all in one place",
+    view: "https://youraldea.com/",
   },
 ];
 
